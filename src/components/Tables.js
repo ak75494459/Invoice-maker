@@ -82,11 +82,11 @@ export default function Tables({ itemList, handleAddItem, setItemList }) {
           </div>
           <div className='flex flex-col'>
             <label htmlFor="quantity" className='font-bold ml-1'>Quantity</label>
-            <input className='bg-gray-200 text-black border-2 border-black px-2 py-2' placeholder='Enter Quantity' {...register('quantity')} type="number" name="quantity" id='quantity' />
+            <input className='bg-gray-200 text-black border-2 border-black px-2 py-2' placeholder='Enter Quantity' {...register('quantity')} type="text" name="quantity" id='quantity' />
           </div>
           <div className='flex flex-col'>
             <label htmlFor="price" className='font-bold ml-1'>Price:</label>
-            <input className='bg-gray-200 text-black border-2 border-black px-2 py-2' placeholder='Enter Price' {...register('price')} type="number" name="price" id='price' />
+            <input className='bg-gray-200 text-black border-2 border-black px-2 py-2' placeholder='Enter Price' {...register('price')} type="text" name="price" id='price' />
           </div>
           <div className='flex flex-col'>
             <label htmlFor="NetPrice" className='font-bold ml-1'>Net Price</label>
